@@ -1,0 +1,46 @@
+.choose-glasses {
+    background-image: url(../public/glassesImage/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .header {
+        opacity: 0.6;
+    }
+    .img-box {
+        .item-glasses {
+            position: absolute;
+            left: 196px;
+            top: 75px;
+            opacity: 0.8;
+        }
+
+        .detail {
+            position: absolute;
+            bottom: 0;
+            width: 246px;
+            background-color: orangered;
+            opacity: 0.5;
+            h3 {
+                font-size: 20px;
+                color: blue;
+            }
+            p {
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+    .button-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        button {
+            width: 150px;
+            height: 50px;
+            img {
+                max-height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
